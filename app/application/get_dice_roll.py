@@ -2,5 +2,4 @@ import random
 
 
 def get_dice_roll() -> int:
-    dice_number = random.randint(1, 6)  # noqa: S311
-    return dice_number + 2
+    return random.randint(1, 6) + 1  # noqa: S311
