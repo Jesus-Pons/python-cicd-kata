@@ -72,6 +72,8 @@ uv remove (--group dev) <package_name>
 
 Run the application:
 
+uv run uvicorn app.main:app --port 8000 --reload
+
 ```sh
 PYTHONPATH=app uv run uvicorn main:app --port 8000 --reload
 ```
